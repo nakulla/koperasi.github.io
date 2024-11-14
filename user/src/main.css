@@ -1,0 +1,122 @@
+* {
+    font-family: 'Popins', sans-serif;
+}
+
+:root {
+    --primary-color: #f6f8fd;
+    --secondary-color: #dc3545;
+    --color-text: #231942;
+    --navbar-color: #ffffff;
+    --navbar-color-text: #000000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.home {
+    display: flex;
+    cursor: grab;
+    height: 38rem;
+    overflow-y: scroll;
+}
+
+.home-page {
+    height: 45rem;
+}
+
+.nav-nav {
+    height: 5rem;
+    background-color: var(--primary-color);
+}
+
+.nav-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.icons-cemilan,
+.icons-makanan {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.icons-minuman {
+    margin-right: 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    height: 10rem;
+    width: 100%;
+}
+
+.pemesan {
+    border-radius: 5px;
+}
+
+.list {
+    cursor: pointer;
+}
+
+.category-aktif {
+    background-color: var(--primary-color);
+}
+
+.link {
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: var(--navbar-color);
+    border: 1px solid black;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.link:hover {
+    background-color: var(--primary-color);
+}
+
+.bayar {
+    background-color: var(--primary-color);
+}
+
+.rupiah {
+    float: right;
+    margin-right: 1rem;
+}
+
+.btn-bayar {
+    width: 96%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.hasil {
+    overflow-y: scroll;
+    height: 32rem;
+}
+
+.button-search {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .home-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+}

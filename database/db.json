@@ -1,0 +1,374 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "nama": "Makanan"
+    },
+    {
+      "id": 2,
+      "nama": "Minuman"
+    },
+    {
+      "id": 3,
+      "nama": "Cemilan"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "kode": "K-03",
+      "nama": "Sate Ayam",
+      "harga": 12000,
+      "is_ready": true,
+      "gambar": "sate-ayam.jpg",
+      "deskripsi": "Nasi rames adalah hidangan nasi yang disajikan dengan berbagai macam lauk, seperti ayam, telur, tahu, tempe, dan sambal. Hidangan ini kaya akan variasi rasa.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-04",
+      "nama": "Nasi Uduk",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "nasi-goreng.jpg",
+      "deskripsi": "Nasi uduk enak sekali",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Nasi Rames",
+      "harga": "15000",
+      "is_ready": true,
+      "gambar": "nasi-rames.jpg",
+      "deskripsi": "Nasi rames adalah hidangan nasi yang disajikan dengan berbagai macam lauk, seperti ayam, telur, tahu, tempe, dan sambal. Hidangan ini kaya akan variasi rasa.",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "K-03",
+      "nama": "Lontong Opor",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "lontong-opor-ayam.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "K-03",
+      "nama": "Mie Ayam",
+      "harga": "8000",
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-03",
+      "nama": "Mie Goreng",
+      "harga": "8000",
+      "is_ready": true,
+      "gambar": "mie-goreng.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "K-03",
+      "nama": "Es Teh",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "es-teh.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "2",
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 10,
+      "kode": "K-03",
+      "nama": "Lemon Tea",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "lemon-tea.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "2",
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 11,
+      "kode": "K-04",
+      "nama": "Coffe",
+      "harga": "8000",
+      "is_ready": true,
+      "gambar": "coffe-late.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "2",
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 12,
+      "kode": "K-05",
+      "nama": "Teh Hangat",
+      "harga": "3000",
+      "is_ready": true,
+      "gambar": "teh-hangat.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "2",
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 16,
+      "kode": "K-04",
+      "nama": "Teh Tarik",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "teh-tarik.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "2",
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": 17,
+      "kode": "K-05",
+      "nama": "Burger",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "cheese-burger.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 18,
+      "kode": "K-05",
+      "nama": "Kentang Goreng",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "kentang-goreng.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 19,
+      "kode": "K-04",
+      "nama": "Pangsit",
+      "harga": "10000",
+      "is_ready": true,
+      "gambar": "pangsit.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 20,
+      "kode": "K-04",
+      "nama": "Bola Ubi",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "bola-ubi.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 21,
+      "kode": "K-04",
+      "nama": "Risol Mayo",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "risol.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 22,
+      "kode": "K-04",
+      "nama": "Lumpia Goreng",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "lumpia.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 23,
+      "kode": "K-04",
+      "nama": "Sosis Bakar",
+      "harga": "7000",
+      "is_ready": true,
+      "gambar": "sosis.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 24,
+      "kode": "K-04",
+      "nama": "Tahu Crispy",
+      "harga": "5000",
+      "is_ready": true,
+      "gambar": "tahu.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": "3",
+        "nama": "Cemilan"
+      }
+    },
+    {
+      "id": 25,
+      "kode": "K-23",
+      "nama": "Bakso",
+      "harga": "7000",
+      "is_ready": true,
+      "gambar": "bakso.jpg",
+      "deskripsi": "",
+      "category": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    }
+  ],
+  "keranjangs": [],
+  "pesanans": [
+    {
+      "total_harga": 45000,
+      "pemesan": "Nakulla",
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": "15000",
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": "15000",
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "deskripsi": "Nasi rames adalah hidangan nasi yang disajikan dengan berbagai macam lauk, seperti ayam, telur, tahu, tempe, dan sambal. Hidangan ini kaya akan variasi rasa.",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        },
+        {
+          "jumlah": 3,
+          "total_harga": 30000,
+          "product": {
+            "id": 5,
+            "kode": "K-03",
+            "nama": "Lontong Opor",
+            "harga": "10000",
+            "is_ready": true,
+            "gambar": "lontong-opor-ayam.jpg",
+            "deskripsi": "",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_harga": 15000,
+      "pemesan": "Kaila",
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": "15000",
+          "product": {
+            "id": 3,
+            "kode": "K-03",
+            "nama": "Nasi Rames",
+            "harga": "15000",
+            "is_ready": true,
+            "gambar": "nasi-rames.jpg",
+            "deskripsi": "Nasi rames adalah hidangan nasi yang disajikan dengan berbagai macam lauk, seperti ayam, telur, tahu, tempe, dan sambal. Hidangan ini kaya akan variasi rasa.",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_harga": 8000,
+      "pemesan": "Tabina",
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": "8000",
+          "product": {
+            "id": 8,
+            "kode": "K-03",
+            "nama": "Mie Goreng",
+            "harga": "8000",
+            "is_ready": true,
+            "gambar": "mie-goreng.jpg",
+            "deskripsi": "",
+            "category": {
+              "id": 1,
+              "nama": "Makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    }
+  ]
+}
